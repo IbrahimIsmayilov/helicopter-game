@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Helicopter Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+  <!-- Load JavaScript -->
+  <script src="functions.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/signIn.js"></script>
+</head>
+
+<body>
+  <canvas id="myCanvas" class="hidden"></canvas>
+  <!-- Sign In Div -->
+  <div id="signInDiv">
+    <img src="img/heliBlueTransparent.png" alt="Blue Pixelated Helicopter">
+    <hr>
+    <hr>
+
+    <h1>Welcome Back Player</h1>
+    <p>Please fill this out and sign in to start playing again.</p>
+
+    <p>Username: <span>*</span></p>
+    <input type="text" id="signInUser"/>
+
+    <p>Password: <span>*</span></p>
+    <input type="password" id="signInPass"/>
+
+    <p>
+      <button id="signInBtn">Sign In</button>
+    </p>
+
+    <p>Haven't signed up yet?
+      <span class="link">Click Here</span>
+    </p>
+
+    <hr>
+
+    <p>* required field</p>
+  </div>
+
+  <!-- Sign-Up-Div -->
+  <div id="signUpDiv">
+    <h1>Please fill this out to become a member:</h1>
+
+    <p>Username: </p>
+    <input type="text" id="signUpUser">
+
+    <p>Password: </p>
+    <input type="password" id="signUpPass">
+
+    <p>Username: </p>
+    <input type="password" id="signUpConfPass">
+
+    <p>
+      <button id="signUpBtn">Sign Up</button>
+    </p>
+  </div>
+  
+</body>
+
+</html>
